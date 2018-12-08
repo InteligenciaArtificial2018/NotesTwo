@@ -1,0 +1,15 @@
+Index: app/src/main/res/layout/content_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/content_main.xml	(date 1544291554000)
++++ app/src/main/res/layout/content_main.xml	(date 1544292536000)
+@@ -9,6 +9,7 @@
+     tools:showIn="@layout/app_bar_main">
+ 
+     <TextView
++        android:id="@+id/txt1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="HOLA MUNDO"
