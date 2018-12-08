@@ -1,4 +1,4 @@
-package com.example.brianmejia.notestwo
+package com.example.brianmejia.notas2
 
 import org.junit.Test
 

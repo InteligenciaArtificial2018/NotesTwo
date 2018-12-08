@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NotesTwo</string>
+    <string name="app_name">Notas2</string>
+    <string name="navigation_drawer_open">Abrir el Explorador</string>
+    <string name="navigation_drawer_close">Cerrar el Explorador</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>
