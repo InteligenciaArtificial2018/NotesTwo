@@ -1,9 +1,18 @@
 <resources>
-    <string name="app_name">Notas2</string>
+    <string name="app_name">NOTAS2</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Notas2</string>
+    <string name="nav_header_subtitle">brianariel04@yahoo.es</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+
+    <!-- MENU PARA LOS COLORES DE LAS NOTAS -->
+    <string name="action_settingscolor1">Color MORADO</string>
+    <string name="action_settingscolor2">Color VERDE</string>
+    <string name="action_settingscolor3">Color GRIS</string>
+    <string name="action_settingscolor4">Color NARANJA</string>
+    <string name="action_settingscolor5">Color AZUL</string>
+
 </resources>

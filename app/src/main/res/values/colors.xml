@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#83C16B</color>
+    <color name="colorPrimaryDark">#649E49</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- COLORES PARA LAS NOTAS agregando degradado-->
+    <color name="gray">#e8e8e8</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <!-- colores de los botones  -->
+    <color name="color1">#de3a3a</color>
+    <color name="color2">#b0d197</color>
+    <color name="color3">#b405ff</color>
+    <color name="color4">#104cff</color>
+
+
 </resources>
