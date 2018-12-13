@@ -6,7 +6,7 @@
 
     <!-- COLORES PARA LAS NOTAS agregando degradado-->
     <color name="gray">#e8e8e8</color>
-    <color name="white">#fff</color>
+    <color name="white">#ffffff</color>
     <color name="black">#000</color>
 
     <!-- colores de los botones  -->
@@ -14,6 +14,8 @@
     <color name="color2">#b0d197</color>
     <color name="color3">#b405ff</color>
     <color name="color4">#104cff</color>
+    <color name="color5">#972d15</color> //color para todos los botones
+    <color name="colorFONDO">#ece2c1</color>
 
 
 </resources>

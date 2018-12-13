@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorFONDO"
     tools:context=".Main2Activity">
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        android:minHeight="?attr/actionBarSize"
-        />
+        <EditText
+            android:id="@+id/editTITULO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ingrese el titulo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editDESCRIPCION"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:ems="10"
+            android:hint="ingrese la descripcion"
+            android:inputType="textPersonName"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editCATEGORIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ingrese una categoria"
+            android:inputType="textPersonName" />
 
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnGUARDAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color5"
+                android:text="GUARDAR"
+                android:textColor="@color/gray"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnACTUALIZAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color5"
+                android:text="ACTUALIZAR"
+                android:textColor="@color/gray" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
