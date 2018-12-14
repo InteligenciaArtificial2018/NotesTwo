@@ -1,9 +1,12 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
+
+    <!-- estos son los colores para realizar el degradado de la barra lateral ()-->
+
     <gradient
         android:angle="135"
-        android:centerColor="#009688"
+        android:centerColor="#336964"
         android:endColor="#00695C"
-        android:startColor="#4DB6AC"
+        android:startColor="#4d5655"
         android:type="linear" />
 </shape>

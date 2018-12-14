@@ -3,32 +3,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings1"
-        android:orderInCategory="100"
+        android:id="@+id/colorA"
         android:title="@string/action_settingscolor1"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings2"
-        android:orderInCategory="100"
+        android:id="@+id/colorB"
         android:title="@string/action_settingscolor2"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings3"
-        android:orderInCategory="100"
+        android:id="@+id/colorC"
         android:title="@string/action_settingscolor3"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings4"
-        android:orderInCategory="100"
+        android:id="@+id/colorD"
         android:title="@string/action_settingscolor4"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings5"
-        android:orderInCategory="100"
+        android:id="@+id/colorE"
         android:title="@string/action_settingscolor5"
         app:showAsAction="never" />
 </menu>
